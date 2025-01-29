@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+    show_home(); // Call your function as soon as the HTML is parsed
+});
+
 let [home, sibas, e_learning, student_portal, sst, smc] = [document.getElementById("home"),
      document.getElementById("sibas"),
      document.getElementById("e-learning"),
